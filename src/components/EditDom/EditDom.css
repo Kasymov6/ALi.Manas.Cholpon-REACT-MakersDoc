@@ -1,0 +1,55 @@
+.main-modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 120;
+  align-items: center;
+}
+
+.inner-modal {
+  width: 300px;
+  height: 200px;
+  background-color: rgb(205, 235, 231);
+  margin: 158px 0 150px 610px;
+  text-align: center;
+}
+
+.inner-modal input {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #000;
+  padding: 8px;
+  text-align: center;
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0);
+}
+.btn-save-one {
+  margin-top: 15px;
+}
+.btn-save-one button {
+  padding: 6px 50px;
+  background-color: #000;
+  color: #fff;
+  transition: 1s;
+  outline: none;
+  cursor: pointer;
+  -webkit-box-shadow: 4px 12px 13px 0px rgba(0, 0, 0, 0.71);
+  box-shadow: 4px 12px 13px 0px rgba(0, 0, 0, 0.71);
+}
+.btn-save-one button:hover {
+  transform: scale(1.1);
+}
+.close {
+  display: flex;
+  justify-content: end;
+}
+.close button {
+  background-color: #000;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  padding: 2px 4px;
+}
